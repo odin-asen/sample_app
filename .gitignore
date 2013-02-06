@@ -13,3 +13,13 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore other unneded files.
+/tmp/**/*
+/tmp/*
+doc/
+*.swp
+*~
+.project
+.DS_Store
+bundler_stubs/
